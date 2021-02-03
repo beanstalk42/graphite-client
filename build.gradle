@@ -1,0 +1,20 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.21'
+    id 'maven'
+}
+
+group 'ch.beanstalk'
+version '1.0'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation 'net.razorvine:pickle:1.1'
+
+    implementation 'io.github.microutils:kotlin-logging-jvm:2.0.4'
+    implementation 'ch.qos.logback:logback-classic:1.3.0-alpha5'
+}
