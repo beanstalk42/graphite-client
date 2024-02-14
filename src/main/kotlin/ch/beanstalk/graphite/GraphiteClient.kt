@@ -1,6 +1,6 @@
 package ch.beanstalk.graphite
 
-import mu.KotlinLogging
+import mu.two.KotlinLogging
 import net.razorvine.pickle.Pickler
 import java.nio.ByteBuffer
 import java.time.OffsetDateTime
